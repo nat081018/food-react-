@@ -1,0 +1,16 @@
+.sociale__links {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  font-size: 20px;
+}
+
+.MuiSvgIcon-root {
+  color: #000;
+  font-size: 30px;
+}
+
+.MuiSvgIcon-root:hover {
+  scale: 2;
+}

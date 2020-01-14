@@ -1,0 +1,86 @@
+.card__wrapper {
+  max-width: 33.333%;
+  border-radius: 4px;
+  box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  margin: 0 auto 2rem;
+  background-color: #fff;
+  /* max-width: 350px; */
+}
+
+/* .card {
+  padding: 15px;
+} */
+
+.card__img {
+  width: 100%;
+}
+
+.product__img {
+  max-width: 100%;
+}
+
+.card__discription {
+  display: flex;
+  justify-content: space-between;
+  color: #101010;
+  font-weight: 700;
+  font-size: 1em;
+  padding: 1.5rem 1rem;
+}
+
+.icon__bag {
+  color: #fff;
+  font-size: 30px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.card__buy {
+  padding: 1rem;
+  justify-content: space-between;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buy {
+  background: #000;
+  color: #fff;
+  padding: 1em 0.5em;
+  border: none;
+  border-radius: 100px;
+  font-size: 14px;
+  flex: 0 0 60%;
+  position: relative;
+  z-index: 2;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+/* .buy:after {
+  content: " ";
+  position: absolute;
+  top: 38%;
+  left: -1000%;
+  width: 1100%;
+  height: 100%;
+  background-color: #000;
+} */
+
+/* модальное окно */
+
+.product__hover {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: transparent;
+  transform: translate(-50%, -50%);
+  width: 120%;
+  height: 120%;
+  border: 1px solid #fff;
+  opacity: 0.7;
+  border-radius: 50%;
+}

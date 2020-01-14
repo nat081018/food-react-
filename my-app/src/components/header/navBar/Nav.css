@@ -1,0 +1,16 @@
+.nav__bar-wpapper {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+.nav__link {
+  font-size: 1rem;
+  color: black;
+}
+
+.nav__link:hover {
+  color: #7baa55;
+  text-decoration: underline;
+}

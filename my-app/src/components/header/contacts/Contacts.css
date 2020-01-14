@@ -1,0 +1,17 @@
+.header__phone {
+  display: flex;
+  justify-content: flex-end;
+}
+.link__phone {
+  color: black;
+  font-size: 1rem;
+}
+
+.phone__icon {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+/* .phone__icon {
+  padding-top: 3px;
+} */
